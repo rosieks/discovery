@@ -42,7 +42,8 @@ function mapToGeoJsonType(type) {
 	var mapper = {
 		"point": "Point",
 		"linestring": "LineString",
-		"polygon": "Polygon"
+		"polygon": "Polygon",
+        "multipolygon": "MultiPolygon"
 	}
     return mapper[type];
 }
